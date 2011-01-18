@@ -35,9 +35,9 @@ Rake::GemPackageTask.new(gemspec) do |pkg|
 end
 
 Rake::RDocTask.new do |rdoc|
-  rdoc.main     = 'README'
+  rdoc.main     = 'README.rdoc'
   rdoc.rdoc_dir = 'doc'
-  rdoc.rdoc_files.include('README', 'lib/**/*.rb')
+  rdoc.rdoc_files.include('README.rdoc', 'lib/**/*.rb')
 end
 
 task :default => [

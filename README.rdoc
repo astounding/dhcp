@@ -18,5 +18,5 @@ Using the DHCP library depends on the following other gems:
 
 === LICENSE
 
-Released under the MIT license.  See the file 'LICENSE' for copyright and license detail.
+Released under the MIT license.  See the file 'LICENSE.txt' for copyright and license detail.
 
