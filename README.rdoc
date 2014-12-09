@@ -3,9 +3,9 @@
 
 DHCP is a pure Ruby library for parsing and creating IPv4 DHCP packets,
 requests or responses.  No socket operations are included in the library.
-Just packet parsing and binary packet creating.
+Just packet parsing and binary packet creation.
 
-*WARNING* A working release is not yet available.  This is under development!
+*WARNING:* A working release is not yet available.  This is under development!
 
 === REQUIREMENTS
 Using the DHCP library depends on the following other gems:
