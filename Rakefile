@@ -4,6 +4,7 @@ require 'pathname'
 require 'rubygems'
 require 'rubygems/package_task'
 require 'rdoc/task'
+require 'rake/testtask'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
 require 'dhcp/version'
@@ -44,8 +45,14 @@ RDoc::Task.new do |rdoc|
   rdoc.rdoc_files.include('README.rdoc', 'lib/**/*.rb')
 end
 
+Rake::TestTask.new do |t|
+  t.test_files = FileList['test/*_test.rb']
+  t.verbose = true
+end
+
 task :default => [
   'pkg/dhcp-' + DHCP::Version::STRING + '.gem',
-  :rdoc
+  :rdoc,
+  :test
 ]
 

@@ -12,6 +12,10 @@ Using the DHCP library depends on the following other gems:
 
 * ipaddress gem
 
+=== TO DO
+
+Lots and lots to be done, including implementing some useful tests
+
 === AUTHORS and CONTRIBUTORS
 
 * Aaron D. Gifford - http://www.aarongifford.com/
