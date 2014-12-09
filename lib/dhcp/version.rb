@@ -3,7 +3,7 @@
 
 module DHCP # :nodoc:
   module Version # :nodoc:
-    STRING = '0.0.2'
+    STRING = '0.0.3'
   end
 end
 

@@ -18,7 +18,6 @@ gemspec = Gem::Specification.new do |s|
   s.summary     = "dhcp-#{DHCP::Version::STRING}"
   s.description = 'A pure-ruby library for parsing and creating IPv4 DHCP packets (requests or responses)'
 
-  s.add_runtime_dependency 'ffi'
   s.add_runtime_dependency 'ipaddress'
  
   s.rubygems_version  = DHCP::Version::STRING
